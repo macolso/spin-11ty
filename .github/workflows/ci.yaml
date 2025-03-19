@@ -27,6 +27,6 @@ jobs:
         run: spin build
         working-directory: .
       - name: Build and deploy
-        uses: fermyon/actions/spin/deploy@v1
-        with:
-          fermyon_token: ${{ secrets.FERMYON_CLOUD_TOKEN }}
+            uses: fermyon/actions/spin/deploy@v1
+            with:
+              fermyon_token: ${{ secrets.FERMYON_CLOUD_TOKEN }}
